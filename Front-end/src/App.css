@@ -1,0 +1,252 @@
+.nav {
+    color: white;
+    background: '#969696',
+}
+.home{
+  margin-right: 650px;
+}
+.navHead{
+  text-align: end;
+}
+
+.navbar {
+    display: block;
+    display: flexbox;
+    text-align: end;
+ 
+}
+.con{
+    margin: 20px;
+}
+
+.Contents{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(8, 20, 10, 0.77);
+    padding: 30px 0 0 0;
+    min-height: 873px;
+}
+.hform{
+    text-align: center;
+    color: aliceblue;
+    font-family: Roboto;
+    margin-bottom: 60px;
+}
+.tform{
+    color: aliceblue;
+    font-family: Roboto;
+    font-size: 18px;
+    margin-right: 80px;
+}
+.tlogin{
+    color: aliceblue;
+    font-family: Roboto;
+}
+
+ .login-form {
+    max-width: 500px;
+    width: 500px;
+    grid-area: wrapper;
+    
+  }
+ .login-form-forgot {
+    float: right;
+  }
+ .login-form-remember {
+    float: left;
+  }
+ .login-form-button {
+    width: 100%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . . ."
+      ". wrapper wrapper ."
+      ". . . .";
+  }
+  .pcontent{
+      height: 675px;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      gap: 4px;
+      grid-auto-flow: column;
+  }
+
+  .wrapper {
+     border-radius: 10px;
+    height: 500px;
+    width: 1170px;
+  max-width: 1170px;
+  margin: 0 auto;
+  background-color: #FBFBFB;
+  -webkit-box-shadow: 1px 2px 5px 3px rgba(0,0,0,0.69); 
+box-shadow: 1px 2px 5px 3px rgba(0,0,0,0.69);
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". L-wrapper-top R-wrapper ."
+    ". L-wrapper-bot R-wrapper ."
+    ". . . .";
+}
+.L-wrapper-top { 
+  grid-area: L-wrapper-top; 
+  margin-top: 100px;
+}
+.L-wrapper-bot {
+   grid-area: L-wrapper-bot;
+   margin-top: 80px;
+   }
+.R-wrapper { 
+  grid-area: R-wrapper;
+  margin-top: 40px;
+ }
+.avatar {
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  
+  form{
+    font-family: Roboto;
+    font-size: 15px;
+  }
+  .R-wrapper input[type="text"] {
+    font-family: Roboto;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 20px;
+}
+.P-m-text{
+  font-size: 12px;
+  font-family: Roboto;
+}
+.P-text{
+  font-size: 18px;
+  font-family: Roboto;
+}
+.hprofile{
+  font-size: 20px;
+  font-family: Roboto;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  padding: 5px 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #008bbac0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px #999;
+}
+
+.button:hover {background-color: #008CBA}
+
+.button:active {
+  background-color: #008CBA;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.Pro-wrapper {
+  border-radius: 10px;
+ height: 640px;
+ width: 1200px;
+margin: 0 auto;
+background-color: #FBFBFB;
+-webkit-box-shadow: 1px 2px 5px 3px rgba(0,0,0,0.69); 
+box-shadow: 1px 2px 5px 3px rgba(0,0,0,0.69);
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+gap: 0px 0px;
+grid-template-areas:
+  "productPic productDe";
+
+}
+
+.Pro-content{
+  height: 675px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 4px;
+  grid-auto-flow: column;
+
+}
+.productPic{
+  height: 520px;
+  width: 500px;
+  border-radius: 10px;
+  margin: 40px;
+  grid-area: productPic;
+  
+}
+.productDe {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   gap: 0px 0px;
+   grid-template-areas:
+     "productName"
+     "productDes"
+     "productPrice";
+   grid-area: productDe;
+   }
+ .productName {
+    grid-area: productName;
+  margin-top: 60px;
+  font-size: 40px;
+  font-family: Roboto;
+  }
+.productDes {
+   grid-area: productDes;
+   margin-top: 30px;
+   font-size: 16px;
+   font-family: Roboto; }
+.productPrice { 
+  grid-area: productPrice; 
+  font-size: 30px;
+  font-family: Roboto;
+}
+
+.inputQ{
+  width: 40px;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.inputP{
+  width: 80px;
+  margin: 10px;
+}
+.Buttons{
+  color: rgb(12, 12, 14); font-size: 24px; line-height: 36px; padding: 6px; border-radius: 3px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; border: 2px solid rgb(28, 110, 164); display: inline-block; text-align: center; margin: 30px 0  0 50px  ;
+}
+  .Buttons:hover {
+  background: #1C6EA4; }
+  .Buttons:active {
+  background: #144E75; }

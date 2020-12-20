@@ -1,0 +1,18 @@
+.pic {
+    width:190px;
+    height: 200px;
+    padding: 5px;
+}
+.card{
+
+    padding: 10px;
+    width: 200px;
+    height: 340px;
+}
+.image2{
+    margin-top: 20px;
+}
+
+.gutter-row{
+    margin-left: 12px;
+}
